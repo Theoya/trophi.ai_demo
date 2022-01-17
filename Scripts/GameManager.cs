@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Reset game on escape button
+        // Reset game on escape button
         if (Input.GetKeyDown("escape")){
             SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
         }
